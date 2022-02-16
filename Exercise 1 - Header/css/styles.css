@@ -1,7 +1,6 @@
 /* Create four equal columns */
 .col {
     flex: 20%;
-    padding: 15px;
     vertical-align: middle;
 }
   
@@ -17,6 +16,9 @@
     }
 }
 @media screen and (max-width: 600px) {
+    .col {
+        margin: 5px;
+    }
     .row {
         flex-direction: column;
     }
@@ -29,10 +31,14 @@
 }
 
 
-  img.social_logos {
-      width: 30px;
-  }
+img.social_logos {
+    width: 30px;
+}
 
-  .infoBold p {
-      font-weight: 600;
-  }
+img.chat {
+    margin: 5px 0px;
+}
+
+.infoBold p {
+    font-weight: 600;
+}
